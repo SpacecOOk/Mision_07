@@ -2,7 +2,7 @@
 #Ciclos While
 
 
-def probarDivisiones(divisor, dividiendo):
+def dividir(divisor, dividiendo):
     contador = 0
     while divisor >= dividiendo:
         divisor = divisor - dividiendo
@@ -37,7 +37,7 @@ def main():
         if opcion == 1:
             divisor = int(input("Teclea el numero que quieres dividir"))
             dividiendo = int(input("Teclea el numero por el cual quieres dividir"))
-            probarDivisiones(divisor,dividiendo)
+            dividir(divisor,dividiendo)
         elif opcion == 2:
             print("Teclea una serie de valores para encontrar el mayor")
             econtrarMayor()
